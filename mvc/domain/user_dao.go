@@ -1,8 +1,9 @@
 package domain
 
 import (
-	"golang-microservices/mvc/utils"
 	"net/http"
+
+	"github.com/adhikag24/golang-microservices/mvc/utils"
 
 	"fmt"
 )

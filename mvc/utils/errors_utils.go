@@ -5,3 +5,5 @@ type ApplicationError struct {
 	StatusCode int    `json:"status"`
 	Code       string `json:"code"`
 }
+
+

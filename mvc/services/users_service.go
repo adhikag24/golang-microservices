@@ -1,8 +1,8 @@
 package services
 
 import (
-	"golang-microservices/mvc/domain"
-	"golang-microservices/mvc/utils"
+	"github.com/adhikag24/golang-microservices/mvc/domain"
+	"github.com/adhikag24/golang-microservices/mvc/utils"
 )
 
 func GetUser(userId int64) (*domain.User, *utils.ApplicationError) {

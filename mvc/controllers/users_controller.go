@@ -2,10 +2,11 @@ package controllers
 
 import (
 	"encoding/json"
-	"golang-microservices/mvc/services"
-	"golang-microservices/mvc/utils"
 	"net/http"
 	"strconv"
+
+	"github.com/adhikag24/golang-microservices/mvc/services"
+	"github.com/adhikag24/golang-microservices/mvc/utils"
 )
 
 func GetUser(resp http.ResponseWriter, req *http.Request) {
